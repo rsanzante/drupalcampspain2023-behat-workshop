@@ -78,12 +78,22 @@ default:
       drupal:
         # Change this to the absolute path to Drupal install.
         drupal_root: "/var/www/html/web"
+      region_map:
+        pre header: ".region-pre-header"
+        highlighted: ".region-highlighted"
+        header: ".region-header"
+        breadcrumb: ".region-breadcrumbs"
+        content: ".region-content"
+        content bottom: ".region-content-bottom"
+        tabs: ".region-tabs"
+        sidebar: ".region-sidebar"
+        bottom: ".region-bottom"
+        footer: "region-footer"
       selectors:
         message_selector: ".messages"
         success_message_selector: ".messages--success"
         error_message_selector: ".messages--error"
         warning_message_selector: ".messages--warning"
-
       text:
         password_field: "edit-pass"
         username_field: "edit-name"
