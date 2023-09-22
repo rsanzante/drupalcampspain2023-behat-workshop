@@ -143,4 +143,25 @@ class FeatureContext extends DrupalContext implements SnippetAcceptingContext {
   public function beforeSetViewportEditor() {
     $this->responsiveContext->assertDeviceScreenResize('desktop');
   }
+
+  /**
+   * @When I go to the recipe list
+   */
+  public function iGoToTheRecipeList() {
+
+    $this->visitPath('/');
+
+    $session = $this->getSession();
+    $regionObj = $session->getPage()->find('region', 'header');
+    if (!$regionObj) {
+        throw new \Exception('The header region was not found so can not find the link to the recipe list');
+    }
+
+    // Find the link within the region
+    $linkObj = $regionObj->findLink('Recipes');
+    if (empty($linkObj)) {
+        throw new \Exception('Could not find the "Recipes" link to go to the recipe list');
+    }
+    $linkObj->click();
+  }
 }
