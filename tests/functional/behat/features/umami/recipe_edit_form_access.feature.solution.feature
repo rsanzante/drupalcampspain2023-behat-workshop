@@ -4,7 +4,7 @@ Feature: Access control to the recipe edit form
   So that I can start adding recipes to the site
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Access recipe creation form with author user
 
     Given I am logged in as a user with the author role
@@ -14,7 +14,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Access recipe creation forms with administrator user
 
     Given I am logged in as a user with the administrator role
@@ -24,7 +24,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Deny access to recipe creation form with editor user
 
     Given I am logged in as a user with the editor role
@@ -34,7 +34,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Deny access to recipe creation form with authenticated user
 
     Given I am logged in as a user with the authenticated role
@@ -44,7 +44,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Deny access to recipe creation form with anonymous user
 
     Given I am an anonymous user

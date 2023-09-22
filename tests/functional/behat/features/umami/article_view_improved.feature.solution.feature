@@ -3,7 +3,7 @@ Feature: Display articles and its details
   I want to see articles with all its details
   So that I can learn about topics related to recipes
 
-  @content @article @us4b
+  @content @article @us4b @solution
   Scenario: See an article with its details
 
     Given I am an anonymous user

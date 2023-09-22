@@ -4,7 +4,7 @@ Feature: Article in home page
   So that I can learn about topics related to recipes
 
 
-  @content @article @homepage @us3
+  @content @article @homepage @us3 @solution
   Scenario: See an article in home page
 
     Given I am an anonymous user

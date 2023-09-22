@@ -4,7 +4,7 @@ Feature: Display the list of available recipes
   So that I look for a recipe I like
 
 
-  @content @recipe @us1
+  @content @recipe @us1 @solution
   Scenario: See the list of available recipes
 
     Given I am an anonymous user

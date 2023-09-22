@@ -4,7 +4,7 @@ Feature: Create recipe content
   So that I can add the main content of the site
 
 
-  @content @recipe @editorial @api @javascript @us6
+  @content @recipe @editorial @api @javascript @us6 @solution
   Scenario Outline: Simple Recipe creation
 
    Given file with name "1800x1200S.jpg"
@@ -34,7 +34,7 @@ Feature: Create recipe content
 
 
 
-  @content @recipe @editorial @access @error @api @us6
+  @content @recipe @editorial @access @error @api @us6 @solution
   Scenario Outline: Simple Article creation role access
     Given I am a user with <role> role
     When I go to "/node/add/recipe"

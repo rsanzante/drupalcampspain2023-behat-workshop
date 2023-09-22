@@ -5,7 +5,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario Outline: Access recipe creation form with an authorized user
 
     Given I am logged in as a user with the <role> role
@@ -20,7 +20,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario Outline: Deny access to recipe creation form with an unathorized user
 
     Given I am logged in as a user with the <role> role
@@ -35,7 +35,7 @@ Feature: Access control to the recipe edit form
 
 
 
-  @content @recipe @api @access @us5
+  @content @recipe @api @access @us5 @solution
   Scenario: Deny access to recipe creation form with anonymous user
 
     Given I am an anonymous user

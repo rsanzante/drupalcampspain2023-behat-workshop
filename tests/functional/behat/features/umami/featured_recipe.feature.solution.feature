@@ -4,7 +4,7 @@ Feature: Feature a recipe on the home page
   So that Ican check the recipe that editors have promoted
 
 
-  @content @recipe @us2
+  @content @recipe @us2 @solution
   Scenario: See the featured recipe
 
     Given I am an anonymous user
