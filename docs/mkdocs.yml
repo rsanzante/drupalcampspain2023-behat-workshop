@@ -1,0 +1,21 @@
+site_name: Develop handbook
+theme: material
+dev_addr: '0.0.0.0:8080'
+nav:
+  - Home: index.md
+  - Onboarding:
+    - About: onboarding/about.md
+    - Local: onboarding/local.md
+  - Boilerplate:
+    - About: boilerplate/index.md
+    - Manual Configuration: boilerplate/manual_configuration.md
+    - Quick-Reference: boilerplate/quick.md
+  - Project design and structure:
+    - About: project/index.md
+  - Tests: tests.md
+  - Environments: environments.md
+  - Who is who: who.md
+  - Links: links.md
+
+markdown_extensions:
+  - admonition
