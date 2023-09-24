@@ -1,3 +1,15 @@
+# Behat workshop
+
+Este repositorio es parte del <a href="https://2023.drupalcamp.es/es/el-programa">taller de Behat</a> del 23 de septiembre en el marco de la Drupal Camp Spain 2023 en Sevilla.
+
+Para realizar los ejercicios del taller se deben seguir las instrucciones indicadas en la [presentación del taller](https://rsanzante.github.io/drupalcampspain-2023-presentacion-taller-behat/).
+
+Se pueden usar las etiquetas de git para cambiar a los diferentes ejercicios y soluciones.
+
+
+El resto del readme es el contenido original del readme de [Boilerplate de Metadrop](https://github.com/Metadrop/drupal-boilerplate), usado para este taller.
+
+
 # Metadrop's Drupal Boilerplate
 
 ## Introduction
